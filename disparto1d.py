@@ -1,5 +1,4 @@
 #Disparo una dimension EDO segundo orden
-#from matplotlib import pyplot as plt
 import numpy as np
 
 uprobu = open('uprobu.dat','w')
