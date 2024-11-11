@@ -23,7 +23,7 @@ print ('Numero de particiones \n')
 n = int(input('N:     '))
 
 #Avance en x
-h = (betha-alpha)/n
+h = (b-a)/n
 
 #Condiciones dadas por la teoria
 U10 = alpha
@@ -31,7 +31,7 @@ U20 = 0
 V10 = 0
 V20 = 1
 
-x = np.arange(alpha,betha+h,h)
+x = np.arange(a,b+h,h)
 
 #Runge Kutta para 2o orden
 #Ejemplo obtenido en Burden. Pag: 676
